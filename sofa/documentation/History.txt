@@ -1,0 +1,875 @@
+Comersus Cart Version History
+
+Date       Version  Notes
+_____________________________________________________________
+10/27/2008 7.099    AddItem fix for , decimal sign, Transaction Central updated,
+		    ReviewAddForm patched to avoid Cross Site Scripting, 
+		    MailEnable component included, rental fixed for selected period 
+		    surrounding an existing reservation, Calendar reservation with green and red colors
+		    Comments field in saveorder, eProcessingNetwork gateway added, 
+		    orderFunctions updated, Rental CheckAvailability Fix, 
+		    Lite Customer Modify quote filtered, Reviews ordered DESC, 
+		    Version displayed at menu, taxes management added to Lite,
+		    AdSense with permanent and confirmation settings, Fedex Real Time updated, 
+		    goEMerchant updated, ABNAmro Ideal Easy, digital goods now support rar and msi, 
+		    BackOffice add product per type (mp3, rental, software), 
+		    add another product in Backoffice Plus, listItems order by price, 
+		    Pagination and ordering for Customers List, Simple Wizard with easy shipping setup, 
+		    listItems fixed for rentals, ebayExportExec with more length for idProduct,
+		    Stock Movements per year, USPS updated to handle incorrect zip codes
+		    
+06/26/2008 7.098    SQL Server scripts updated, PayPal IPN updated, Sendmail updated,
+		    Web Upload using Persits component, bonus points 
+		    provided at orderFunctions, Related Products with image and four columns,
+		    USPS updated, BackOffice Manual Order date fix, Massive options groups assignment,
+		    OptionGroup Link added, Display Tax Included in Checkout3, Real Time Fedex patched,
+		    BackOffice TaxPerProduct SKU display, Froogle export updated, BackOffice Search by SKU,
+		    Random Names for common BackOffice Exports, BackOffice Rented Product report,
+		    Google Analytics tracking code for defaultOrderConfirmation, getRootCategories and
+		    listOneCategory using displayOrder, BackOffice Item transfer between stores,
+		    Reviews with Turing Code patched, Understock notification patched, Migs gateway added,
+		    Turing Verification for Surveys, comersus_customerShowOrders.asp pagination,
+		    BackOffice Global labels fix, Excel product import, MP3 Sample Music
+		    
+01/27/08   7.097    Wide Template with 900px, Wordpress integration 
+		    for subscription, reviews and news, Wizard non-us 
+		    state codes load, Image added in showCart display,
+		    Auctions listings enhanced including bid evolution,
+		    Verification Turing code for suggestions and reviews,
+		    XMLHTTP component autodetection, Video Streaming Sell,
+		    Sku added to quick search, PayPal RefundOrderExec updated, 
+		    Secure Web Pay, Protx Direct, Chronopay and Nochex added,
+		    Moneybookers updated including Status script,
+		    Payflowlink updated, PayPal IPN with Sandbox support,
+		    PayPal Express3 updated, Authorize.net AIM email 
+		    settings added, Viaklix Updated for Virtual Terminal,		    		    		    
+		    ListOrders patched, Lite payments management enhanced,
+		    Suggestion box disable setting, Patch over bonus points use,		    
+		    New index with random products rotation, subCategories with 
+		    columns ordering and images, News and products feeder added to Free Distribution,
+		    Reviews Updated, UpgradeDb6to7 updated to include new settings,
+		    Online currency conversion updated, cart quantity printed
+		    Bonus points updated (only assign if were not used to 
+		    pay the order), settings groups re-ordered for SQL, browserIP size increased 
+		    local networks, Spanish Translation updated,
+		    New Spanish Release with translated template included,
+		     
+		    
+12/17/2007 7.095    CreateHTMLPagesExec field list retrieve, viewItem download jpg path fixed,
+		    Protx Updated, Recurring Billing updated, AlertPay Gateway, PayPal Pro updated,
+		    Product Image Zoom, Visit Per Month report fixed, Multilanguage rental consideration,
+		    Real Time USPS fixed, dynamic XML products feed, Edit Payments for BackOffice Lite,
+		    XML file export from BackOffice Plus
+
+09/18/2007 7.09     Case for File Upload verification, Cookies Information updated,
+	    	    StringFunctions updated, Message filtering updated,
+	    	    List Own Affiliate Commissions updated, countryCodes SQL updated,
+	    	    HTML editor updated, Advanced Search Customer Type updated,
+	    	    Sendmail and BackOffice Plus Newsletter updated to avoid timeouts
+	    	    on huge lists, BackOffice Plus ShowOrder patched for PayPal Pro,
+	    	    Digg Integration inside Customer Reviews, Customer password chars 
+	    	    verification, BackOffice Plus Supplier List Own Products stock removal,	    	    
+	    	    Fedex and UPS Tracking Number automatic link, 
+	    	    Reset BackOffice Plus Shipment Information,
+	    	    BackOffice Plus PayPal Wizard Capture Setting fixed, 
+	    	    New Filtering for Message and SupportError,
+	    	    Clean HTML tags in AutoKeywords.
+	    	    
+06/06/2007 7.08     SagePayments Gateway added,
+	    	    Dineromail, Decidir SPS, BNL gateways added,
+	    	    Password analysis for BackOffice Plus admins,
+	    	    New HTML editor for BackOffice Plus,
+	     	    Taxes modification added for BackOffice Lite
+	     	    Customer registration random password sent by email, 
+	    	    RMA List patched, PaymentFunctions patched for PayPal Express,
+		    Generate Links updated, PayPal Express, IPN Updated, Direct
+		    Payment updated, PayPal BackOffice utilities added to capture, void 
+		    and authorise charges. PayPal Wizard for BackOffice
+		    Nochex Gateway Released, BackOffice Lite emailText patched,
+		    Rental cancellation for Refund and RollBack,
+		    Advanced Search compare link fixed, BackOffice Lite SearchItemExec
+		    counter fixed, Clone Product Optionals patched, Bonus Points
+		    enhanced with automark order, Rentals prior date verifications added,		   		    
+		    shippingCostExec updated, USPS updated for US filtering,
+		    Bonus Points modifications from BackOffice Lite
+		    
+01/19/2007  7.07    New Store Layout, Autoupgrade to WholeSale status,
+		    ListItems updated for last chance, UPS updated,
+		    addItem updated for customer tracking, Minimum Purchase considered,
+		    AIM Form closeDB fixed, Upgrade DB 6 to 7 fixed, addItemRental fixed,
+		    Protx updated, Viaclix updated, Google Checkout Address2 added,
+		    Special Prices Remove, eBay Export updated, orderFunctions stock fixed
+		    SEO Item keywords autogeneration,
+		    YouTube Embedded Videos, Download detection added
+		    
+08/24/2006  7.05    Plus Modify category patched, checkout 3 payments functions patched,
+		    cvv2 code patched in saveOrder, Google Checkout Updated, USPS Updated,
+		    taxFunctions patched, eBay export patched, Contact Store Owner email sender fixed
+		    Order comments in SQL query fixed, listItems DISTINCT fixed,
+		    Block PO Boxes in registration and checkout, Real Time Tax calculations,
+		    PayPal Express Checkout integrated in checkout v7,
+		    Comparison List with no limits, item duplication check and removal,
+		    Advanced Search Form inactive categories patched
+		    
+07/17/2006  7.02    Real Time Canada and Real Time Fedex integrated,
+		    Buy This Comparison System added, BackOffice Plus Manual 
+		    Orders updated, BackOffice Plus Add Shipment patched,
+		    PaymentTech Gateway updated, eBay Export updated,
+		    Real Time USPS International included,
+		    Google Checkout including Notification API for new orders,
+		    HeaderKeywords added to storefront pages
+
+05/18/2006  7.0     Checkout Simplified,
+		    RMA request with admin approval and automatic labels,
+		    Shipping Zones for Off Line Shipments,
+		    MAP minimum advertised prices,
+		    Autogenerate news with catalog modification, stock and reviews
+		    BackOrder with automatic stock notification,
+		    RSS with store news records,
+		    Search Keywords and description for categories,
+		    Customer Tracking "what your customers do in your store"
+		    Clone Store with tax, payments and shipping
+		    Variation price with percentage in optionals
+		    New import procedure tab delimited
+		    XML Microsoft Gadget Integration
+		    Chronopay gateway added, QuickPay, AIM updated
+		    Froogle updated, DIBS with callback
+		    orderFunctions for suppliers updated,
+		    PayPal order total length increased,
+		    BackOffice Manual Orders SKU verification,
+		    BackOffice Plus category combo considering category start,		    
+		    Bonus Points can be only used for entire subtotal		   
+		    BackOffice Review Listing loop fixed, 	
+		    BackOffice Settings ordered by type,
+		    Bundles multiple add form,	    
+		    BackOffice Plus categories editing combo revised,
+		    
+01/10/2006  6.07    Google SiteMaps in B+, Succeeding in e-commerce tips
+	    	    Gateways ParaData Hosted, Military Star Card and oGone
+		    BackOffice Plus: replicate entire catalog for multilanguage
+		    Web upload image modification, CDO Authentication,
+		    Update in cartFunctions to fix duplicated rows for same variations
+		    (checkbox and radiobuttons), Enable/Disable under stock notifications
+		    for customers, USPS updated (Parcel, Library, Media and First Class Email added)
+		    PayPal scripts updated, pShowBtoBPrice added to viewItem,
+		    Chart Totals per month updated, listTaxPerPlace getSettingKey fixed,
+		    Date fix day or month if length<2, Authorize.net SIM updated
+		    Add Custom Screen Messages, Shopping Cart Abandonment Report in BackOffice,
+		    Suggestion Box in viewItem, Suggestion Box, Banca Toscana Gateway,
+		    MSWord Personalized Letters, Reviews Length limit, More field for Clone Products
+		    Remove Store with all related tables, Encryption Password removed from friendly settings,
+		    All Stores verification for profiles in B+, taxPerProduct now use tax/100 (21 for 21%)
+		    
+10/11/2005  6.06    ChargebackProtection API, Multiple Selection for variations
+		    Configurable Home (News, Suppliers, Today Items, etc)
+		    Maps & Directions in Contact Us,
+		    BackOffice Plus Reset Password with email notification,
+		    BackOffice Plus administrators per store (malls)
+		    Cartfunctions & itemFunctions CINT for counts,
+		    EchoOnline Updated, B+ list discounts fixed
+		    InterShipper fixed for communication error array,
+		    HTML editor in B+ with quotation fixed for links, 
+		    Protx & Enets updated, Remove Garbage Updated,		    
+		    WAP Categories with pagination, modifyCategoryExec patched		     		    		   
+		    Canada Post Volume Calculation, DIBS Gateway Updated,
+		    SearchItemExec Cross Site Scripting protection
+		    
+09/08/2005   6.05   TeleSign fraud verification system,
+	     	    New Date field storage and display schema
+	     	    PayPal Web Site Payments Pro, LinkPoint API Update
+	     	    CyberSource API Updated,
+	            Gateway Caixa Cataluña, eNets & ECS
+		    idStore in news, Search Engine Friendly Export with more features,		    
+		    Real Time UPS with more features (address type, pickup type, 
+		    packaging, service types, handling fee, free shipping)
+		    Stock repositories fixed for BackOffice+ (multilanguage)
+		    B+ manual orders with shipping and tax calculations,
+		    B+ edit individual screen messages, 		    
+		    Foreign PayPal comma decimal sign fixed,
+		    Dynamic News in store home, B+ charts updated
+		    
+07/21/2005   6.045  Publish items in eBay, Customer modify email allowed,
+	     	    New reports for B+ (cost, affiliates, taxes, visits, refunds)
+	     	    Custom product fields management and display
+	     	    addItem, recalculate fixed, B+ HTML editor autoverification,
+	     	    cartFunctions & itemFunctions mySQL type fixed,
+	  	    BackOffice Lite improvements, Set VIP according to idStore
+		    Import products, categories and customers for B+
+		    Password displayed for random pass in registration,
+		    PaySat Payments, B+ edit store records,		    		    
+		    Delete newsletter recipients from B+,
+		    Export Sales to CSV in BackOffice+		    
+		    Orders linked to visits through IP,
+		    Friendly Settings with new email components.
+		    Cookies info file fixed, Invoice B+ links fixed
+		    Easy Variations management for BackOffice Plus		   
+		    
+06/28/2005   6.041  Customers CSV Export for B+, Fraud Prevention fixed,		    
+		    MaxMind Anti-Fraud, Email Commander, Froogle Updated,		    
+		    PayFlowPro Update, Currency Online include fixed,
+		    iTransact order confirmation updated, String Filtering 
+		    Levels 2/3 with script tag removal
+		    
+05/25/2005   6.04   Donation Management for B+, Lite order status
+		    modification, getPriceByQty Wholesale fix, 
+		    IATS TicketMaster updated, AuthenticateExec auction
+		    redirect, sendmail CDO fixed, PayJunction updated, Canada Post
+		    Payment fixed, Has Personalization for the same item fixed,
+		    Backoffice Plus Image Upload update, Real Time UPS All Services
+		    available, better performance and shipping filtering fixed, 
+		    WAP Included, CyberSource Hosted
+		    Auth & Capture, Birthday format, Customers Import for BackOffice Lite,
+		    Serials Import for BackOffice Plus,
+		    Multiple radio buttons for variations fixed,
+		    BackOffice Plus birthday discount distribution,
+		    Image management for options, Bonus points decreased in refund/rollback,
+		    CCNow Gateway, taxPerProduct listing fixed in B+
+		    Discount per product functions fixed for multiple items,
+		    Fraud Prevention Feature reissued (IP, amount, product and keywords filtering),
+		    Discover for Off Line Payment fixed,
+		 
+		    
+03/07/2005  6.03    Optimal, PayJunction and TicketMaster IAS Gateways,		    
+		    orderFunctions rental update, Dimensions for InterShipper,
+		    BackOffice Plus translations export,
+		    Serial Codes distribution revised,
+		    Update for 2Checkout and Authorize.net
+		    Fixed: Customer Type for wish list public, 
+		    Online currency conversion functions, AutoPassword,
+	            B+ Mark pending orders as paid, PayPal confirmation,
+	            Quote filtering in default getUserInput, B+	Image
+	            Upload header removal, Advanced Search keyword lost 
+	            for page 2 and up, start category for root list 
+	            categories, Date Format in stock movements
+		    
+01/19/2005  6.02    Diagnostics Category Check, Bonus points updated
+	            with BPlus or Call Back responses, BackOffice Lite
+	            delete item fix for getFreeProduct, Lite Wizard Step 
+	            10 verification included, -_ added to login filtering,
+	            String filtering for visits tracking, String filtering
+	            for supportError in BackOffice Lite, new customer idStore
+	            fix, Lite Import Stock Fix
+
+01/13/2005  6.011   Keywords filtering per Search Engine, PayPal IPN
+                    and 2Checkout Confirmation idOrder fix, customer 
+                    registration idStore fix, viewItem link settings
+                    fixed, optDes include file fix, bypass shipping 
+                    fixed, Lite install2 quotation fixed
+
+01/01/2005  6.00    New Mall MultiStore schema, 4 images for every item,
+		    Visitor tracking with IP, referrer and keywords,
+		    Special filtering for login fields, 
+		    More security to avoid shipping quotes modifications,
+		    New layout with dynamic category in left bar,
+		    Variation Types (checkbox, radio, list) and images,		    
+		    Export customers and sales history to VCF,  
+		    New easy variation load in BackOffice Lite,
+		    Removal off all validationForms in storefront,
+		    Removal of dictionary object use in the storefront,
+		    Special scripts for rental and donations with 
+		    specific options needed
+
+09/06/2004  5.0995  Edit auction form field fixed for mySQL, 
+                    PayMate Gateway, currency conversion in foreign servers
+                    fixed for currency sign, Free Download StrongCube
+                    component for Digital Goods, Portuguese updated 
+                    translation, AdSense client & PreCharge settings
+                    fixed to disable, Get Free Item optionals verification
+                    in BackOffice Management, iDeb Gateway updated, IKobo 
+                    Gateway added, USPS ounces calculation fix for integer
+                    numbers
+
+08/19/2004  5.0992  Customer Logged Verify redirection url removed
+		    BackOffice Lite commission list fixed                    
+
+08/06/2004  5.099   LinkPoint API Update, Direct Payment Solutions 
+                    and First Atlantic Commerce Gateways added,
+                    Off Line Payment with post method, PreCharge 
+                    AntiFraud System for off line payments, new UPS XML quoting
+                    with dimensions and weight, Auction, News and SQL Pad update
+                    for filtering user input
+                    
+07/05/2004  5.098   2Checkout Script Updated for V2, Off Line Payment
+                    email settings added, InterShipper updated, 
+                    Concord EFSnet and DoPays Gateways added, 
+                    New main products listing with ordering capabilities
+                    by sku, description, price, supplier, visits and date added 
+                    asc/desc, replacement of nested queries in BackOffice Lite
+                    Tax configuration in BackOffice Lite Wizard
+                    
+                    ** Comersus developed in asp.net (VB) has been released) **
+                    
+06/12/2004  5.095   iDeb Sweden, DirectOne and SourceFul Gateways, 
+		    WorldPay testmode updated, Donation Items
+		    New Regex filtering for user inputs to avoid Cross Side Scripting
+		    RSS News Feeder (server RSS news with products added),
+		    Diagnostics and Tools relaunched, Permission verification for 
+		    Installation Wizard, Authorize.net AIM updated 
+
+05/06/2004  5.09    TrustCommerce, uSight and e-Bullion Gateways added, 
+		    Advanced Stock calculations and advisor for BackOffice 
+		    including Security Stock/Minimum order/Costs and more, 
+                    Exit Survey (open a store survey when the customer leaves
+                    from important exit points) only in english at this time,
+                    byPass shipping for new customers, Authorize.net SIM 
+                    documentation updated, Template selling add-on with 
+                    price decrease and buyout price, Comments field saved in
+                    checkoutSaveOrder, Comments, user1-3 shown at showOrder in
+                    BackOffice+, Domain Registration add-on with Whois lookup
+            
+04/02/2004  5.08    State disabled setting for European stores
+		    European Taxes in one simple step using BackOffice+, 
+ 		    ITransact Gateway Added, Save Cookie patch in Wish List
+                    Security Check with B+ path, Orders per supplier and affiliate 
+                    with SUM for BackOffice+, formatForDb used for quotation in checkout 
+                    fields, real time GoogleBot link creator, Change all catalog prices 
+                    at once by percentage, Mark all pending orders as paid, 
+                    closeDB after footer for storefront scripts,
+                    Diagnostics and Tools integrated with BackOffice Lite, Fedex minimum weight
+                    force, BackOffice+ new: HTML details field parsing, quotes parsing
+                    for Options, Search By Letter page transition fixed, len verification for user
+                    admin, Portuguese Translation update, Norwegian Translation Update,
+                    Security Measures Graph in checkout, New Import procedure for
+                    categories and products with all fields
+                    
+03/01/2004  5.07    CDO email component added, Terra Payments Gateway,
+		    BackOffice+ Products Export in CSV, How Important 
+		    is one affiliate against te entire table, SQL 
+		    Injection Protection for logged admins, list 
+		    products by first letter, Storefront Search By 
+		    Letter with multilanguage filtering, Export to Shopping.com
+		    comparison in beta version, Real Time Comparison with Amazon
+		    prices, Easy shipment rules for BackOffice Lite and Plus,
+		    Default version with include virtual in order to avoid ../
+		    FastCharge Gateway, New Declarations sentences to increase 
+		    performance, Clean Catalog from Lite Wizard, Quick Start 
+		    Guide, New case study: payment gateways, rentals table 
+		    added to mySQL scripts
+            
+01/25/2004  5.05    VelocityPay Gateway & order confirmation added,
+		    LinkPoint API 5.4 revised final release,
+		    BackOrder basic request for unserstock products, 
+		    ERD database chart included with documentation,
+		    Database table and fields description included with 
+		    documentation, Access in a foreign server fixed for decimal prices, 
+		    Buckaroo SSL, CCAvenue and eGold Payment Gateways added,
+		    ShoppingCartStandards.org API and export functions,
+		    Cart Remove with Free Products & idDbSessionCart considered,
+		    Update Transaction Results for rental patched, Real Time USPS
+		    considering ounces and free shipping items, AddItem & orderVerify for		    
+		    Real Time UPS ZIP length verification, What's New script
+		    fixed with Cdbl for days comparison, Active verification
+		    for featured categories, overFlow for 0 reviews in viewItem
+		    for mySQL fixed, patches for rentals table in SQL Server scripts, 		    
+		    BackOffice Lite and + delete item with optionals removal		    		    
+		    
+12/25/2003  5.03    Unlimited categories assignment for B+, New
+		    Books Template, Affiliates are able to see order contents,
+		    SQL Injection protection for list products by supplier,
+		    B+ deleteItem with serials and getFree removal,
+		    Volume calculation for Off Line Shipment and InterShipper,
+		    ViaClix Gateway added, Access 2000 empty database for 5.xx
+		    Delayed Payments (a payment for an existing order can be posted anytime),
+		    Serial Codes complete management from B+, Shipping Cost, Review, 
+		    Comparison, listBySupplier and PayPal Silent Response revised for
+		    SQL Injection
+
+12/01/2003  5.00    Rental/Borrow Products for Hotel reservations, DVD rental, etc
+		    Last Chance Listing for storefront,
+		    Load Balancing between two Web Servers for higher performance,                                	    
+		    Fast and light schema for checkout procedure without dictionary object, 
+		    Wish List revised now with public link for third party purchase, wish 
+            	    list item decrease, notification and fixed destination address
+            	    Automatic Integration with Google AdSense (Place Google ads on your site 
+            	    and earn money),
+            	    Installation Wizard with easy encryption password modification, 
+            	    first time password and all minimum settings to run the store, 
+            	    List Products by Letter,            	    
+		    ParaData, BluePay, Epoint and Architrade DIBS Gateway Denmark added,
+		    EPDQ gateway revised and Silent Response added,		    
+                    French Language and Norwegian Translation updated,
+                    French Language for BackOfficeLite
+                    Handling charges for off line shipments,                                	                	    
+            	    SQL Injection Protection for searchItem and BackOffice Lite Login, 
+            	    Disable listHidden when removing a product from a bundle, 
+            	    form quantity and stock considered in Bundle products, 
+            	    B+ Sales and Visits chart revised, BackOffice Dead Product Listing            	    
+            	    mySQL 3.51 db connection string, mySQL Server Scripts Indexes added
+            	    Order custom fields (1-3) to store custom information for each order,
+            	    Offer Box compatible with special pricing,             	                	    
+            	    Length, Width and Height for products, ByPass Shipping Calculations,             	                	                	                	                	    
+            	    BackOffice Lite Form Validation fixed, Customer automatic password revised,            	                	    
+            	    Export to NexTag comparison system, BackOffice+ Image Upload for products 
+            	    and categories with automatic names assignment, Use Shipping Address for 
+            	    Tax calculations, Cookies detection configurable            	    
+            	    Stock fields in products table for advanced stock calculations,
+            	    Rental Case Study, Access 2000 database for demo store,
+            	    New storefront templates (Hosting, Music, Farm, Consulting, Wave),
+            	    B+ menu: no payment/shipment/products detection and warning
+            	                
+10/15/2003  4.36    Customer order cancellation request, Download digital 
+		    goods with time limit, Newsletter distribution when a new
+		    product is added from BackOffice+, Main header configurable keywords
+		    Affiliate registration with banner and links page in Storefront,
+		    New case study for Search Engines and Shopping Carts,
+		    New payment gateways: Payready.net y Gorealtime,
+		    Email Text field of payments fixed in B+
+		    
+            
+09/21/2003  4.34    Characters in graphic box to prevent automated registrations,
+		    BackOffice+ main menu with Java charts Linux compatible,
+		    Delete stored CC numbers for specific orders,
+		    Select which credit cards will be accepted for off line payments,
+		    Clone Products from BackOffice+ to load similar products,
+		    Digital Goods compatible with ASPUpload component,
+		    Digital Goods download with on the fly zip creation with random name,
+		    Discounts per product revised, Three new free templates Golf, 
+		    Computer Hardware, WayBack Machine, All payment 
+		    gateways with Silent Response revised, documents explaining Comersus
+		    features for clothing and online music stores, online currency conversion
+		    fixed, E Processing Network and RTware gateways added
+
+08/22/2003  4.32    SaveOrder for SQL Server error with lcase fixed,
+                    SendMail missing for BackOffice login and Auction functions,
+                    Security Check inside Diagnostics and Tools, Italian translation updated
+                    CyberSource, SecurePost, eWay & Payment Processor Gateways, Keywords management in B+
+                    Capture customer search words, Dynamic Suppliers Listing, Preload customer data
+                    in Shipping Preview, Contact a store representative in customer menu
+                    
+07/27/2003  4.30    New templates, OZHosting gateway added, 
+		    Bank of America Silent Response added,
+            	    Froogle export in BackOffice+, Payment Percentage bug fixed
+            	    (orderForm, orderVerify and SaveOrder), New Real Time Shipping 
+            	    Quotes for Simultaneous systems (DHL, Fedex, USPS and UPS).
+            	    Static Shipping Quote Preview from showCart, VIP Product verification,
+            	    Bundle Products (One product made with other products), 
+            	    Free Shipping for certain items, Save language of each order
+            	    as it was selected by the customer, Save priceToAdd and optionDescrip 
+            	    as historic data for reliable Invoice printing with format, Get One Free
+            	    description translated, Invoice dollar number total only for US companies,
+            	    Friendly VIP product selection from BackOffice, Custom fields for user 
+            	    registration with easy implementation, Tax per customer type and location,
+            	    Utility to record Affiliate Transfers with email notification,
+            	    Bonus reward points for customers, How important is one specific supplier
+            	    for BackOffice+ including pie chart, User's Guide released in Spanish also.
+            	    Address format for showOrder revised, Upgrade Script from 42x to 43x,
+            	    Case sensitive issues in file names and DB structure fixed for Linux
+            
+06/14/2003  4.295   Real Time Fedex beta, BackOffice+ Chart Total Per Month Overflow 
+                    fixed, Blocked Keywords Delete fixed, & in company considered
+                    Protx Silent Response, EPDQ and Asia Debit PayZip gateways added
+                    New Import schema for D&T, SKU link in showCart and image 
+                    hyperlinked in listings, 5 new templates (Business Bold, Contemporary
+                    Greenwich, NYCBlue, Speed Of Business), Traffic Booster for BackOffice+
+                    (create HTML pages and link from the dynamic catalog) to get higher ranks,
+                    Add Shipments added to Free BackOffice Lite                                   
+
+05/14/2003  4.29    New Import Procedure for D&T, 2Checkout Order Confirmation
+                    Revised, PayFlowPro final version, PaySystem Gateway Added, 
+                    MoneyBookers Gateway Added, Solution for & in company field,
+                    Turkish Support for BackOffice Lite, Norwegian Translation updated
+                    How Important for BackOffice+ products, Enter orders from BackOffice, 
+                    Print all product labels at once, 
+                    Real Time Canada Post Payment Shipping, 
+                    Shipment tracking email to the customer,
+                    New Schema for Order Management in BackOffice+ with ChargeBack and Refunds 
+                    features and intelligent order status procedure,
+                    BackOffice Lite Extensions updateOrderStatus patched, 
+                    PriceGrabber Export from BackOffice+, New Skin with Software/Digital Style,
+                    BackOffice+ Home for Linux with compatible charts
+
+04/17/2003  4.28    PSIGate, SkipJack and WorldPay CB payment forms Revised, 
+                    Viborgnet payment added, Verisign PayFlowPro beta,
+                    Echonline Gateway added,
+                    BackOffice+ related products filter fixed, Date 
+                    Format Setting added to saveOrder,
+                    Customer Type considered inside Invoice, German Translation
+                    Update, unitWeight field as float in SQL scripts, 
+                    Modifications to accept 5 digits or more quantities in the cart,
+                    Products Comparison, Store Closed and minimum for 1Step Checkout,
+                    BackOffice+ delete auctions, Server Operating System inside settings,
+                    Database debug error levels, BackOffice WAP revised, 
+                    Programming Reference in User's Guide, Optional DES encryption,
+                    Digital Goods Download with a new schema for several files
+                    per Order, Free Skins (Hardware & Computers, Books and Sports)
+                    Custom Recommendations fixed for small catalogues, cart Recalculate for
+                    Free Products trapped error fixed, Off Line Payment Expiration Check 
+                    for current month fixed
+            
+03/11/2003  4.27    UsaEPay Client gateway added, Bean Stream 
+ 		    SOAP method gateway added, Authorize.net 
+                    and WELLS Fargo scripts updated,                  
+                    BackOffice+ released with real time charts in 
+                    a new friendly home, rotating haiku relax phrases
+                    direct links and information cell, more management 
+                    utilities for products, permissions, inventory, taxes, 
+                    private menu for Suppliers and Affiliates with limited
+                    access, BarCodes for Shipping Labels and Invoices, Delete
+                    Garbage records function optimized, 
+                    Product Shipping Labels with BarCodes,                     
+                    VIP place for one product in Dynamic Home, Contact US dynamic
+                    page, Custom Recommendations considering previous orders for 
+                    categories, prices, suppliers and Hot Deals
+                    
+            
+02/27/2003  4.25    Store Location included in BackOffice Gold ShowOrder,
+                    Reset Customer Passwords fixed, BackOffice Lite Generic
+                    SQL with Settings to avoid modification fixed, uCase for
+                    Currency Conversion comparison at ViewItem, Active Categories
+                    for Categories Tree enabled, User fields defined as NULL for 
+                    SQL and mySQL, PayPal IPN currencyFormat include added, 
+                    Search with more consideration for multilanguage catalogues,
+                    Details field as Text in mySQL DB, Listing Add link redirected to 
+                    viewItem for optionals mandatory,  BeanStream Gateway added with 
+                    detailed documentation, CSV Invoices Export in BackOffice Gold,
+                    Recurring Billing with dbSessionCart assigned, Price List duplicated
+                    records fixed, Percentage Discount for one specific product fixed, 
+                    Box Offer adds selected product to the cart, Speed Test in Diagnostics
+                    and Tools, mySQL Db connection without DSN, Performance and Speed 
+                    documentation, PSIGate Gateway revised with Stock Update, New Faster
+                    Import schema for Diagnostics and Tools, Customer Authenticate Name
+                    in the URL fixed for NetScape, Moneris DirectPost Gateway Added                
+            
+01/21/2003  4.23    Reset Products if WapCarts have been used, taxPerProduct
+                    calculation fixed, SQL Server Modify Configuration fixed for
+                    submit field, SQL Server Scripts displayOrder missing fixed, 
+                    DateAdded included in Diagnostics and Tools for Products Import
+                    OfferBoxPercentage setting name fixed in SQL and mySQL scripts, 
+                    Wells Fargo Payment and AuthorizeNet e-checks Gateway Added, 
+                    2Checkout Return Script with MD5 hash verification,
+                    Delete currencies in BackOffice Gold, Setting to avoid
+                    money rounding, Payment Gateways detailed instructions in 
+                    Comersus User's Guide
+            
+01/07/2003  4.22    AuthorizeNet AIM Beta, WorldPay and Intellipay
+		    Invoice in Silent Response, Sales Forcasting 
+		    with Math theory, idSerial bug patched in PayPal
+		    Silent Response and Authorize.net Silent Response, 
+		    PayPal Silent Response money comparison fixed for
+		    SQL Server, Shipping Labels Printing, PlugNPay and
+		    SkipJack payments added, Vat Number printed in 
+		    BackOffice Gold Invoice, Setting to use Taxable Shipping 		    
+		    for UK and other European countries, Doesn't calculate TAX 
+		    for VAT registered customers, Payments Management in Free
+		    BackOffice Lite
+
+12/24/2002  4.20    Double randomkey for mySQL Scripts, White Label
+                    and Bank Of America Payments Form added, BackOffice 
+                    Lite in Dutch, UPS Fuel Surcharge added, QuickBooks 
+                    invoices export from BackOffice Gold, Check if all
+                    optionals have been selected prior to adding to 
+                    the cart, categories tree help in BackOffice Gold,
+                    Reviews fixed to only get active in calculation,
+                    New Prefix removal schema, Cookies Enabled Detection,
+                    BackOffice: friendly Open/Close Store, Security lock
+                    for failed login, Duplicated Category verification in
+                    BackOffice, DundasMail and aspSmartMail added, Order Total
+                    in english words printed in Backoffice Invoice, 
+                    Discounts Total limited to order total, Select State or 
+                    Another State Bug for & in text fields fixed, browserIp
+                    saved into Orders for control and security, Shipment Tracking
+                    Numbers and Details from BackOffice and Customer Show Order,
+                    Transaction Results field for payment authorization codes,
+                    VAT Number included in OrderForm, Date Added for products and 
+                    What's New Feature, Diagnostics and Tools check for suppliers 
+                    automatically, mySQL ID retrieve with lastInsertId(), 
+                    Product Personalization (add a name to a custome pen, etc),
+                    Get One Free, Silent Response Invoices Multilanguage, Recurring 
+                    Billing, Enable or disable categories, Ability to define a display
+                    order for categories
+                
+            
+11/12/2002  4.18    Spanish translation for BackOffice Lite, idCustomerType 
+		    fixed in Customer Menu, Turkish Translation, SecPay CallBack,
+		    Military Star Card, SMTP Authentication for JMail, ModifyProductForm
+		    decimal point setting, LinkPointBasic "Store not allowed" fixed,
+		    Real Time UPS Zip From fixed, PSIGateway currency format removed, 
+		    OCXMail component added, Friendly Settings for BackOffice Gold,
+		    Real Time USPS GET method fixed, Payment Gateway Merchant Data 
+		    included in DB configuration Settings, AuthorizeNet SIM Gateway Added,
+		    Wholesale prices display revision, SQL Scripts Quotation fixed, 
+		    Offer Box feature (Treasure Box with 20 minutes offers), 
+		    More documentation
+		    
+
+10/04/2002  4.14    comersus_message.asp HTML/Script injection attack fixed, 
+		    PayPal Silent Response under stock supplier email fixed,
+		    SecPay gateway added, Password verification at orderForm,
+		    OnLine Currency Conversion, Stock Tracking (register all 
+		    movements: in/out/sales), Store is closed setting (don't 
+		    allow checkout during close status), outbound HTML emails 
+		    (Cdonts, Jmail), Credit Card payment in WAP Store, PayPal 
+		    default email account missing fixed, Troubleshooting chapter 
+		    in Comersus User's Guide, EFTSecure Gateway added, Digital
+		    Goods Private Download, Customers Export to QuickBooks from
+		    BackOffice Gold, BackOffice Lite Multilanguage (English and 
+		    Italian)
+            
+09/18/2002  4.11    DynamicIndex categories limited to 5 fixed, 2Checkout form
+		    modifications, Advanced Search fixed for mySQL, Email To Friend
+		    fixed, Forgot Password Link, SQL and mySQL Scripts modified, 
+		    idDbSession not defined for mySQL fixed, formatForDb quotes fix,
+		    BackOffice Version Check
+
+09/06/2002  4.10    Transaction Central, SecureTrading, Protx and IonGate 
+		    Gateways Added, WorldPay CallBack changes, 
+		    ShowCart shows BtoC for BtoB customers fixed, 
+		    Cannot clean cart in CancelOrder 
+		    fixed, BackOffice Gold mySQL compatible, BackOffice Gold
+		    update status with send Invoice feature, listcategoriesandproducts: 
+		    leaf products with description translated if any, Error Trapping for
+		    Access Error Numbers<-2000000000, Swedish Language added,
+		    More verifications over Cookies enabled and Session Variables,
+		    Off Line Payment wrong field name for credit card fixed,
+		    New DB settings schema, Fraud Prevention Package with dynamic
+		    keyword table, What's new package, Unique Serial Codes distribution,
+		    Stock checking in add and recalculate. Currency Sign for Currency Conversion
+		    added, Customer Outbound Email at SaveOrder step setting.
+		    More documentation covering most requested parts of Comersus.
+
+07/05/2002  4.05    One time discount bug fixed, shipping state code
+		    missing fixed, optional BackOffice WAP available
+		    (for WAP cell phones), popularity chart in dynamic
+		    home, verification at changeLanguage for languages 
+		    not installed, SearchItem depending on user language, 
+		    Silent Response: Invoice and Digital Goods new schema, 
+		    BackOffice Gold mark order as paid produces and outbound
+		    invoice and digital goods distribution, 1 step checkout,
+		    mySQL database structure scripts and mySQL support for
+		    the storefront, wap catalog footer restored, SQL Server
+		    IS NULL function fixed at comersus_orderForm.asp,
+		    PSIGate gateway added, VeriSign PayFlowLink modifications
+		    including Silent Response, Discount for auctions requirements
+		    fixed.
+
+06/04/2002  4.02    Off Line Payment Package exchanged for 
+		    OnLine Payment Gateways, bug fixed in searchItem,
+		    IntelliPay Silent Response, WorldPay modifications 
+		    2Checkout, PayPal and PaybyCheck modifications,
+		    languages prepared for currency conversion,
+		    Currency Conversion released w/Power Packs, Bamboo SMTP 
+		    email component added, Dynamic Index modifications
+		    (current stock and dynamic categories)
+
+05/21/2002  4.01    OrderVerify findProduct arrCart removed,
+		    Special Prices storefront feature included,
+		    showBtoBPrice at itemDetailsSm fixed
+
+05/20/2002  4.00    Price List optional package, Weight for product
+		    variations (optionals), Multilanguages
+		    for variations (optionals), payment and 
+		    shipping depending on customer types (retail
+		    or wholesale), separate shipping missing state
+		    bug fixed, Advanced Search Form bug fixed, 
+		    UsaPay, 2Check, GoEMerchant, RoboCharge, 
+		    PayByCheck, QuickCommercePro, LinkPoint Basic
+		    Yahoo PayDirect and CyberCash MCK and QuickPay gateways,
+		    Add Item with different optionals bug fixed,
+		    Suppliers private list of own sales at BackOffice Gold,
+		    New database query schema, multiple customer types,
+		    Special Prices for each customer, image for categories,
+		    Filter to prevent the user from pressing SAVE twice,
+		    new Date Format policy, Unites States Postal Service
+		    Real Time Shipping for US destinations, login password
+		    removed from querystring at checkout step
+		    		     
+		    
+03/18/2002 3.90     Discount per price decimal bug fixed, 
+		    IntelliPay gateway added, National Secure
+		    gateway added, shippingName and shippingLastName
+		    fields used for shipping address, reviews are
+		    not activated until store admin wants to,
+		    automatic notification of reviews, Full 
+		    Multilanguage (header, footer, graphics,
+		    description, details and categories),
+		    Email to Friend with full path to product,
+		    Automatic preload of customer data in 
+		    Email to Friend and Reviews, Date fields
+		    type changed to allow foreign servers,
+		    Setting to avoid adding to the cart if
+		    the product has no stock
+
+
+02/03/2002 3.83     Categories Tree script added, viewed orders
+		    for SQL Server fixed, more error trap for
+		    DB bugs like Invalid Procedure and Subscript
+		    Out Of Range, dbSession Date trouble in
+		    foreign servers fixed, PayPal IPN beta,
+		    Ka-Chingg Gateway added, Expiration field
+		    for Off Line Payments changed to text, 
+		    Verisign PayFlow Link gateway revised,
+		    AddItem decimals bug fixed same item in 
+		    2 instances, SELECT * replaced by each field,
+		    RC4 encryption for orderTotal in external 
+		    gateways
+
+12/25/2001 3.81     Discount recalculate/add bug fixed
+
+11/11/2001 3.80     DiscountCode bug fixed, money format bug 
+		    fixed in saveorder, RC4 new encryption 
+		    schema, SQL hack protection, sku fix in 
+		    showCart view, Trap error 9 for Access,
+		    customerShowOrder with details added,
+		    disable non-installed packages link,
+		    unlimited optionals (variations) per
+		    product, technical enhacements to obtain
+		    inserted records, 100% database cart,
+		    reviews rate at viewitem, cross selling
+		    recommendations at viewitem, new table 
+		    approach to avoid footer movement,
+		    advanced search duplicated records 
+		    bug fixed, BtoB prices independant 
+		    on login time, LinkPoint gateway added
+		    
+
+11/10/2001 3.76     Shipping bug in saveorder fixed, dynamicIndex
+		    integration in all links, dbSession date filter
+		    symbol for SQL Server, dateFunctions for foreign
+		    OS installations fixed, English Language revised
+
+30/09/2001 3.75     Tax calculation using discount bug fixed,
+		    Product Variation with Option Group printed
+		    VeriSign PayFlowPro gateway included, add to
+		    cart from listing disabled if select optionals
+		    is mandatory, stock counter in viewitem, 
+		    different approach for paginating, Discounts
+		    bug in additem script fixed, free HotDeals,
+		    autogenerate or choose customer password,		    
+		    More statistical data saved on each order,
+		    Affiliates with configurable commisions,
+		    Dynamic BR inserts in viewitem, free Header
+		    Cart with totals, Common database error 
+		    solve information in SupportError script,
+		    Dynamic Home, Free SQL admin, under stock 
+		    E-mail alerts for Suppliers, Same Product 
+		    can be assigned to multiple categories,
+		    Bug in autoupdateorderstatus when no digital
+		    emailtext is specified fixed 
+		    
+10/08/2001 3.60     Opt Auctions Engine, CyberCash payment added,
+		    State Codes table for US states fixed,
+		    Opt Real Time UPS calculation for shipping,
+		    date settings in orderVerify dd/mm or
+	            mm/dd according to settings, allow more 
+	            decimals in taxes, Danish free language added,
+	            redirection bugs fixed in WAP catalog	            
+                    
+13/07/2001 3.51     Minor patches in encryption, selectShipment,
+                    and Tax calculation
+
+13/07/2001 3.50     New shipping policies depending on State, 
+		    Zip and country. New Tax policies depending
+		    on product, state, zip and country.
+		    Discount per quantity bug fixed, Shipping
+		    payment discount filter bug fixed, RC4 quotes
+		    removing fixed, Boolean fields compatible with
+		    SQL Server, Country Codes & States with 
+		    dropdown, Querystring encryption, More 
+		    fraud protections, Force to select 
+		    Optionals setting, Image not available in
+		    viewitem script
+		    
+
+01/06/2001 3.45     Discounts per quantity, Free Advanced Search
+		    Max Quantity for add item, delivering time
+		    estimation, List Old Carts in customers menu,
+		    Stock and Sales update in autoupdateorderstatus,
+		    bug fixed in search more than two 
+		    words for Netscape (page 2 or more), Dynamic 
+		    General Conditions, Portuguese Language added,
+		    Form quantity in viewitem configurable, Header 
+		    and Footer design simplified, Language fix in 
+		    order tracking
+		    
+15/05/2001 3.40     Opt Advanced search package, Sell Digital 
+ 	            feature with automatic distribution of serials, 
+		    download links, etc, Same OpenDb script for
+		    all modules, easy add-ons installation, BtoB
+		    special prices, SecurePay Payment Gateway added,
+		    CSS font styles for the whole store, new cart 
+		    schema for same product added, Wap <p> bugs 
+		    fixed, add categories and BtoB price in Tiny 
+		    Admin, discounts weight depending bug solved
+
+
+20/04/2001 3.36     Order & customer prefix, Fraud Prevention 
+	            package, Dynamic store news page, email to a 
+	            friend, minimum purchase, customer registration 
+	            form, pagination in products section of 
+		    comersus_listcategoriesandproducts.asp
+		    Order tracking in WAP store
+
+15/04/2001 3.35     Unlimited categories levels, category navigator
+		    list orders in Tiny admin, Wish List, 
+		    add to cart from listing
+
+08/04/2001 3.34     SQL Server Scripts included, encryption
+		    modules for sensitive data, related 
+		    products opt package, off line opt payment
+
+27/03/2001 3.33     User utilities menu, optionals bug fixed
+		    for several products of same ID, sslUrl 
+		    field in payments can be zero length, Tiny 
+		    Admin Utility VbScript error validation,
+		    Newsletter, Allow new customer register 
+		    setting, Product customer reviews
+
+16/03/2001 3.32     Validate 100% VbScript, Multiple Header 
+                    and footer styles, TAX per state, 
+                    more discount features
+
+09/03/2001 3.31     Tax bug fixed, free multilanguage package
+		    order prefix, more discounts features, 
+		    billing & shipping address, Access 97 &
+		    2000 compatible
+		    
+18/02/2001 3.30     Wap access to catalogue, configurable
+	            currency format and decimal sign, 
+	            delete products in Tiny Admin, Discounts
+	            functionality, autoupdate order status
+	            script for Payment Gateways
+
+01/02/2001 3.29     Date Format Settings, unexcpected inputs 
+		    validation. Multiple e-mail components 
+		    settings for Jmail, CDONTS, ASPmail, 
+		    Persits ASPmail. Multiple database
+		    connection strings, Order Tracking
+
+29/11/2000 3.28	    Bug in optional with decimal price to add 
+		    (truncation), allow payment discount
+		    Bug in total options, Small random in 
+		    saveorder to get  idOrder.	
+
+23/11/2000 3.22	    Basic Stock functionality (viewItem, 
+		    settings, saveorder)			    
+
+22/11/2000 3.21     SaveOrder fixed bugs in Payment-Email-Text, 
+		    orderForm Ssn field bug
+
+09/11/2000 3.20     ListProductsBySubCategory added, veristore 
+		    modified, DSN less connection
+                    database structure in english, Includes 
+                    File instead of Includes Virtual
+                    Cleanner code, more english comments, 
+                    SaveOrder prepared to huge traffic
+
+17/10/2000 3.15     MultiLanguage Support
+
+11/10/2000 3.10     More english documentation
+
+08/10/2000 3.01     Spanish messages in user screens, some 
+		    open connections without closeDb		    
+		    Error in next screen for 
+		    listProductsByCategory and searchItems
+
+01/10/2000 3.00     Original public release. 
+		    Bug in currency type fields in Access 
+		    database, no comments in source 		    		    
+
+_____________________________________________________________
+
+Comersus Sophisticated Software
+8345 NW 66TH ST #3537
+Miami FL 33166-2626
+http://www.comersus.com
+Phone 1 (305) 735-8008

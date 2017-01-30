@@ -1,0 +1,38 @@
+Comersus Shopping Cart Software License
+
+Copyright (c) 2003 Comersus Open Technologies LC. All rights reserved.
+
+Use and redistribution in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions must retain the copyright notice above,
+this list of conditions, the following disclaimer, and all original 
+documentation without any modification.
+
+2. Any installation containing Comersus code (whether complete, partial, 
+modified or unmodified) or the Comersus database design (whether complete, 
+partial, modified or unmodified) must display a clear and legible link to 
+http://www.comersus.com on all web pages generating HTML and/or Flash code 
+and on any other portion that can be viewed with a web browser.
+
+3. The name "Comersus" and the words "cart", "carts" and "shopping", whether 
+combined or in isolation, must not be
+used to endorse or promote products derived from this software
+
+4. Products derived from this software may not be called "Comersus", nor
+may "Comersus" appear in their name, without prior written permission of
+Comersus Open Technologies LC.
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL COMERSUS OPEN TECHNOLOGIES LC OR ITS CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+For more information about Comersus, please visit 
+<http://www.comersus.com/>.

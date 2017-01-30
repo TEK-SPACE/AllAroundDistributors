@@ -1,0 +1,45 @@
+<SCRIPT RUNAT=server LANGUAGE="VBScript">
+
+' Comersus Sophisticated Cart 
+' Developed by Rodrigo S. Alhadeff
+' Open Source License can be found at License.txt
+' http://www.comersus.com 
+' Details: this file must be executed by the web server at first
+
+sub Application_OnStart
+end sub
+
+sub Session_OnStart 
+ session.timeout 		= 25  
+ session("idAffiliate")		= Cint(1)      
+ session("idCustomer")		= Cint(0) 
+ session("idCustomerType")	= Cint(1)
+ session("wishListIdCustomer")	= Cint(0) 
+ session("cartItems")		= Cint(0)
+ session("cartSubTotal")	= CDbl(0) 
+ session("idDbSession")		= Cint(0)
+ session("idDbSessionCart")     = Cint(0)    
+ session("idStore")	        = Cint(1)    
+ 
+ redim arrComparison(19)
+ session("arrComparison")	= arrComparison
+ session("arrComparisonInit")	= Cint(0)  
+  
+end sub
+
+
+sub Session_OnEnd
+ set session("idAffiliate")	  = nothing 
+ set session("idCustomer")	  = nothing 
+ set session("idCustomerType")	  = nothing
+ set session("wishListIdCustomer")= nothing
+ set session("cartItems")	  = nothing 
+ set session("cartSubTotal")	  = nothing 
+ set session("idDbSession")	  = nothing
+ set session("idDbSessionCart")	  = nothing 
+ set session("arrComparison")     = nothing 
+ set session("arrComparisonInit") = nothing
+ set session("idStore") 	  = nothing
+end sub
+
+</SCRIPT> 

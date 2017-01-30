@@ -1,0 +1,106 @@
+Database changes for Comersus 7.00
+. [shipments] -stateCode -statecodeEq -zip -zipEq -countryCode -countryCodeEq +shipments.idShippingZone
+. [rma]
+. [categories] +details +keywords
+. [customerTracking]
+. [products] +map
+. [backorder] (idBackOrder, backOrderDate, idProduct, idCustomer, active)
+. [shippingZones] (idShippingZone, zoneName)
+. [shippingZonesContents] (idShippingZonesContents, idShippingZone, zip, stateCode, countryCode)
+. [options] +percentageToAdd
+
+Database changes for Comersus 6.00
+. [admins] +idStore
+. -[adminStats]
+. [affiliates] +idStore
+. [blockkeywords] +idStore
+. [cartRows] -unitBtoBPrice
+. -[categories_languages]
+. [customers] +birthday +idStore
+. [discounts] +idStore
+. [emails] +idStore
+. -[generalTable] 
+. +[conditions]
+. -[getFreeProducts]
+. -[languages]
+. [newsletter] +idStore
+. [options] +imageUrl
+. -[options_languages]
+. [optionsGroups] +type +optionLink
+. [orders] -idLanguage +idStore
+. [payments] +idStore
+. [products] +idStore +idStock +user1/2/3 +imageUrl2/3/4 -stock
+. - [products_languages]
+. + [screenMessages]
+. [settings] +idStore
+. [shipments] +idStore
+. +[stock]
+. [storeNews] +newsDate
+. +[stores]
+. +[visits]
+
+
+Database changes for Comersus 5.00
+. [products] +height + width + lenght +stockSecurity +stockCostOrder +stockDelay +stockMinimumOrder +rental
+. [orders] +wishListIdCustomer
+. [shipments] +handlingFix +handlingPercentage
+. +[rentals]
+
+Database changes for Comersus 4.30
+. [payments] -ssl -sslUrl +redirectionUrl
+. [orders] +idLanguage
+. [customers] +idLanguage +user1/2/3 marked as size 0 enabled +bonunsPoints
+. [products] +freeShipping +isBundleMain +bonusPoints +searchKeywords
+. +[bundles] +idBundle +mainIdProduct +idProduct
+. [cartRowsOptions] +priceToAdd +optionDescrip
+. [taxPerPlace] +idCustomerType
+. +[affiliateTransfers] idAffiliateTransfer idAffiliate amount transferDate comments
+
+Database changes for Comersus 4.20
+. [discounts, payments, shipments] porcentual by percentage
+. [orders]   +browserIp, +transactionResults, +shipmentTracking, +vatNumber, +user1, +user2, +user3
+. [products] +dateAdded +hasPersonalization 
+. [cartRows] +personalizationDesc
+. [recurringBilling]
+. [customers] +user1, +user2, +user3
+. +[getFreeProduct]
+. [categories] +active +displayOrder
+
+Database changes for Comersus 4.10
+. [serials]        +idProduct
+. [settings]       +comments +idSettingGroup
+. [currencyStatic] +currencySign
+
+Database changes for Comersus 4.00
+
+. [options]             +weight
+. [customers] 		-customerType +idCustomerType + active
+. [auctions]  		-customerType +idCustomerType
+. [shipping]  		+idCustomerType
+. [payments]  		+idCustomerType
+. [categories] 		+imageCategory
+. [admins] 		+idSupplier, +idAffiliate
+. [orders]              digitalEmailText changed to Memo, customerType changed to idCustomerType, taxAmmount for taxAmount
+. [reviews]             +active
+. +[options_languages]
+. +[blockKeywords]       
+. +[serials]
+. +[customer_specialPrices]
+. +[customerTypes]
+. +[currencyStatic]
+
+Database changes for Comersus 3.90
+
+. [reviews]   +active 
+. [Customers] +shippingName +shippingLastName +active
+. +[languages]
+. +[products_languages]
+. +[categories_languages]
+. [dbSession] dbSessionDate field changed to text
+. +[customer_specialPrices]
+___________________________________________
+Comersus Sophisticated Cart Open Source
+8345 NW 66TH ST #3537 
+Miami FL 33166-2626 United States
+Phone: 1 (305) 735-8008
+http://www.comersus.com
